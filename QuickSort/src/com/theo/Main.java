@@ -29,26 +29,26 @@ public class Main {
         System.out.println(Arrays.toString(myArray));
     }
 
-    public static void quickSort(int[] array, int start, int end){
-        // the end should be one greater than the last valid index in the array
+    public static void quickSort(int[] array, int front, int back){
+        // the back should be one greater than the last valid index in the array
 
-        if (end - start < 2){ // then we are dealing with 1-el array
+        if (back - front < 2){ // then we are dealing with 1-el array
             return;     // don't do anything
         }
 
-        int pivotIndex = partition(array, start, end);
+        int pivotIndex = partition(array, front, back);
         /*
         * returns the correct position of the pivot element in the array.
         * at that position, all the elements left from it are smaller and right greater
         * */
-        quickSort(array, start, pivotIndex);
+        quickSort(array, front, pivotIndex);
 
         /*
         * What this recursive call does is, it works on the left side and when it  is done, then and only then, it
         * moves on with the next tow and next recursion call to do the same thing on the right side.
         * */
 
-        quickSort(array, pivotIndex +1, end);
+        quickSort(array, pivotIndex +1, back);
     }
 
     private static int partition(int[] array, int front, int back) {
@@ -57,17 +57,17 @@ public class Main {
         int i = front;
         int j = back;
 
-        while(i < j){                               // if i > j they have crossed each other (front > back)
+        while(i < j){ // if i > j they have crossed each other (front > back)
 
-            // traverse the array frm right to left looking for the first element: less < pivot
+            // traverse the array from right to left looking for the first element: less < pivot
             while(i < j && array[--j] >= pivot); // empty loop body, keep decrementing j until you find
-            // an element that is either less than the pivot or j crosses i.
+            // an element that is either greater than the pivot or j crosses i.
 
             if (i < j){     // make sure j didn't cross i
                 array[i] = array[j];        // move the element we found at the position i (front):  i < pivot
             }
 
-            // now we want to traverse the array from left to right looking for the element that is greater > pivot
+            // now we want to traverse the array from left to right until we find an element that is greater > pivot
             while (i < j && array[++i] <= pivot); // i = front = pivot, we want to start with the element after the pivot
 
             if (i < j){     // make sure j didn't cross i
