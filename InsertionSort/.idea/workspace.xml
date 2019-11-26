@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="901a06ee-18b1-472b-9491-9c7f49cf3b87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/theo/SixthProbe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/theo/SomeDaysAfterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/theo/MainFF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuickSort/src/com/theo/MainFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuickSort/src/com/theo/MainFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuickSort/src/com/theo/MainSeven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuickSort/src/com/theo/MainSix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuickSort/out/production/QuickSort/META-INF/QuickSort.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuickSort/out/production/QuickSort/com/theo/MainTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuickSort/out/production/QuickSort/com/theo/MainTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuickSort/src/com/theo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuickSort/src/com/theo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuickSort/src/com/theo/MainThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuickSort/src/com/theo/MainThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuickSort/src/com/theo/MainTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuickSort/src/com/theo/MainTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +47,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.SixthProbe">
-    <configuration name="NextDayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.theo.NextDayMain" />
+  <component name="RunManager" selected="Application.MainFF">
+    <configuration name="MainFF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.theo.MainFF" />
       <module name="InsertionSort" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.theo.SecondMain" />
+    <configuration name="NextDayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.theo.NextDayMain" />
       <module name="InsertionSort" />
       <extension name="coverage">
         <pattern>
@@ -106,19 +114,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SecondMain" />
       <item itemvalue="Application.ThirdMain" />
       <item itemvalue="Application.NextDayMain" />
       <item itemvalue="Application.SomeDaysAfterMain" />
       <item itemvalue="Application.SixthProbe" />
+      <item itemvalue="Application.MainFF" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainFF" />
         <item itemvalue="Application.SixthProbe" />
         <item itemvalue="Application.SomeDaysAfterMain" />
         <item itemvalue="Application.NextDayMain" />
         <item itemvalue="Application.ThirdMain" />
-        <item itemvalue="Application.SecondMain" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +156,7 @@
       <workItem from="1574208505933" duration="9000" />
       <workItem from="1574267040919" duration="1196000" />
       <workItem from="1574510399102" duration="1340000" />
+      <workItem from="1574521206160" duration="975000" />
     </task>
     <servers />
   </component>
@@ -159,26 +168,26 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1574268224633" />
-    <state width="1807" height="123" key="GridCell.Tab.0.bottom" timestamp="1574511738503">
+    <state width="1807" height="123" key="GridCell.Tab.0.bottom" timestamp="1574522180938">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1574268237569" />
-    <state width="1807" height="123" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1574511738503" />
-    <state width="1807" height="123" key="GridCell.Tab.0.center" timestamp="1574511738503">
+    <state width="1807" height="123" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1574522180938" />
+    <state width="1807" height="123" key="GridCell.Tab.0.center" timestamp="1574522180936">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1574268237569" />
-    <state width="1807" height="123" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1574511738503" />
-    <state width="1807" height="123" key="GridCell.Tab.0.left" timestamp="1574511738502">
+    <state width="1807" height="123" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1574522180936" />
+    <state width="1807" height="123" key="GridCell.Tab.0.left" timestamp="1574522180934">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1574268237569" />
-    <state width="1807" height="123" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1574511738502" />
-    <state width="1807" height="123" key="GridCell.Tab.0.right" timestamp="1574511738503">
+    <state width="1807" height="123" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1574522180934" />
+    <state width="1807" height="123" key="GridCell.Tab.0.right" timestamp="1574522180937">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1574268237569" />
-    <state width="1807" height="123" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1574511738503" />
+    <state width="1807" height="123" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1574522180937" />
     <state x="616" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1574267059504">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

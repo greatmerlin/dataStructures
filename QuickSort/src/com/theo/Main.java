@@ -75,7 +75,7 @@ public class Main {
             }
         }
         // at this point the value of j will be the index, where we want to insert the pivot.
-        array[j] = pivot;
+        array[j] = pivot; // or array[i] = pivot; , this would be the same
         return j;
     }
 }

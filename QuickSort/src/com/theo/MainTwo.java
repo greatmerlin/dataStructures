@@ -24,14 +24,23 @@ public class MainTwo {
         quickSort(array, pivotIndex + 1, back);
     }
 
-    private static int partition(int[] array, int front, int back) {
+    private static int partition(int[] array, int frontEl, int backEl) {
+
+        int front = frontEl;
+        int back = backEl;
         int pivot = array[front];
+
         while(front < back){
             while (front < back && array[--back] >= pivot);
+            if (front < back) {
                 array[front] = array[back];
+            }
             while (front < back && array[++front] <= pivot);
+            if (front < back) {
                 array[back] = array[front];
+            }
         }
+        array[back] = pivot;
         return back;
     }
 }
